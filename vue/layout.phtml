@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Code Jam, Web Development, HTML5, CSS3, JavaScript, PHP, JQuery, Bootstrap 4">
+    <title>Code Jam</title>
+
+    <script src="https://kit.fontawesome.com/9254bb70f7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- En-tête commune de l'application -->
+    <header class="position-fixed w-100">
+      <nav class="navbar navbar-expand-lg container-fluid px-4">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="assets/img/logo.png" alt="">
+        </button>
+
+        <div class="sm-hide order-lg-1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link nav-scroll" href="/Code%20Jam/"
+                    >Home</span></a
+                >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-scroll" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link nav-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link nav-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <a class="btn my-2 my-lg-0 order-lg-last explore mx-4" href="courses">Exlopre Courses</a>
+
+
+        <!-- <form class="form-inline my-2 my-lg-0 order-lg-last ml-lg-5">
+          <div class="d-flex">
+            <input
+              class="form-control mr-sm-2 pl-3"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button type="submit" class="form-control search">
+              <span></span>
+            </button>
+          </div>
+        </form> -->
+
+        <div class="collapse navbar-collapse px-4 scroll" id="navbarSupportedContent">
+            <a href="/Code%20Jam/" class="d-flex align-items-center"><img src="assets/img/logo.png" alt="Code Jam Logo" class="logo"><span class="logo-name ml-2">Code Jam</span></a>
+            <ul class="navbar-nav mr-auto lg-hide">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                          >Home</span></a
+                      > 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <main>
+        <!-- Chargement du template PHTML spécifié par le programme PHP -->
+        <?php include $template.'.phtml'?>
+    </main>
+
+    <!-- Pied de page commun de l'application -->
+
+    <footer class="container-fluid d-flex p-5">
+    <div class="d-flex flex-column col-sm-2">
+        <a href="index.php" class="d-flex align-items-center"><img src="assets/img/logo.png" alt="Code Jam Logo" class="logo"><span class="logo-name ml-2">Code Jam</span></a>
+        <small>&copy; Code Jam 2020</small>
+    </div>
+
+    <div class="d-flex flex-column col-sm-2 offset-sm-3">
+        <a href="#" class="text-secondary"><small>Courses</small></a>
+        <a class="text-secondary my-2" href="#"><small>About</small></a>
+        <a href="#" class="text-secondary"><small>Contact</small></a>
+    </div>
+
+    <div class="d-flex flex-column col-sm-2">
+        <a href="#" class="text-secondary"><small>Courses</small></a>
+        <a class="text-secondary my-2" href="#"><small>About</small></a>
+        <a href="#" class="text-secondary"><small>Contact</small></a>
+    </div>
+
+    <div class="d-flex flex-column col-sm-2">
+        <a href="#" class="text-secondary"><small>Courses</small></a>
+        <a class="text-secondary my-2" href="#"><small>About</small></a>
+        <a href="#" class="text-secondary"><small>Contact</small></a>
+    </div>
+
+    <a href="#"><img src="assets/img/up.png" alt="UP link" class="up"></a>
+
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
